@@ -2,6 +2,6 @@ megs: 128
 boot: floppy
 romimage: file=/usr/share/bochs/BIOS-bochs-latest, address=0xfffe0000
 vgaromimage: file=/usr/share/bochs/VGABIOS-lgpl-latest.bin
-floppya: 1_44=build/hydrogen.img, status=inserted
+floppya: 1_44=build/main_os.bin, status=inserted
 mouse: enabled=0
 display_library: x, options="gui_debug"

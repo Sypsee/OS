@@ -13,7 +13,7 @@ all:
 	dd if=/dev/zero bs=512 count=8 >> ./build/main_os.bin
 
 run:
-	qemu-system-x86_64 -hda ./build/main_os.bin
+	qemu-system-x86_64 -fda ./build/main_os.bin
 
 debug:
 	bochs -f bochs_config -debugger
